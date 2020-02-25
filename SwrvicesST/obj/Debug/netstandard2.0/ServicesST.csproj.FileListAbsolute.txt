@@ -1,0 +1,12 @@
+C:\Users\Sara Porcar\source\repos\SportTeams\SwrvicesST\bin\Debug\netstandard2.0\ModelsST.dll
+C:\Users\Sara Porcar\source\repos\SportTeams\SwrvicesST\obj\Debug\netstandard2.0\ServicesST.csprojAssemblyReference.cache
+C:\Users\Sara Porcar\source\repos\SportTeams\SwrvicesST\obj\Debug\netstandard2.0\ServicesST.csproj.CoreCompileInputs.cache
+C:\Users\Sara Porcar\source\repos\SportTeams\SwrvicesST\obj\Debug\netstandard2.0\ServicesST.AssemblyInfoInputs.cache
+C:\Users\Sara Porcar\source\repos\SportTeams\SwrvicesST\obj\Debug\netstandard2.0\ServicesST.AssemblyInfo.cs
+C:\Users\Sara Porcar\source\repos\SportTeams\SwrvicesST\bin\Debug\netstandard2.0\ServicesST.deps.json
+C:\Users\Sara Porcar\source\repos\SportTeams\SwrvicesST\bin\Debug\netstandard2.0\ServicesST.dll
+C:\Users\Sara Porcar\source\repos\SportTeams\SwrvicesST\bin\Debug\netstandard2.0\ServicesST.pdb
+C:\Users\Sara Porcar\source\repos\SportTeams\SwrvicesST\bin\Debug\netstandard2.0\ModelsST.pdb
+C:\Users\Sara Porcar\source\repos\SportTeams\SwrvicesST\obj\Debug\netstandard2.0\ServicesST.csproj.CopyComplete
+C:\Users\Sara Porcar\source\repos\SportTeams\SwrvicesST\obj\Debug\netstandard2.0\ServicesST.dll
+C:\Users\Sara Porcar\source\repos\SportTeams\SwrvicesST\obj\Debug\netstandard2.0\ServicesST.pdb

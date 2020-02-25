@@ -1,0 +1,6 @@
+C:\Users\Sara Porcar\source\repos\SportTeams\CrossCutting\bin\Debug\netstandard2.0\CrossCutting.deps.json
+C:\Users\Sara Porcar\source\repos\SportTeams\CrossCutting\bin\Debug\netstandard2.0\CrossCutting.dll
+C:\Users\Sara Porcar\source\repos\SportTeams\CrossCutting\obj\Debug\netstandard2.0\CrossCutting.csprojAssemblyReference.cache
+C:\Users\Sara Porcar\source\repos\SportTeams\CrossCutting\obj\Debug\netstandard2.0\CrossCutting.csproj.CoreCompileInputs.cache
+C:\Users\Sara Porcar\source\repos\SportTeams\CrossCutting\obj\Debug\netstandard2.0\CrossCutting.AssemblyInfoInputs.cache
+C:\Users\Sara Porcar\source\repos\SportTeams\CrossCutting\obj\Debug\netstandard2.0\CrossCutting.AssemblyInfo.cs
