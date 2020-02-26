@@ -9,10 +9,11 @@ namespace ServicesST.Repository
   
     public interface IRepository<T>
     {
-        IQueryable<T> FindAll();
-        IQueryable<T> FindByCondition(Expression<Func<T, bool>> expression);
-        void Create(T entity);
-        void Update(T entity);
-        void Delete(T entity);
+        IEnumerable<T> GetAll();
+        T GetById(object id);
+        void Insert(T obj);
+        void Update(T obj);
+        void Delete(object id);
+        void Save();
     }
 }

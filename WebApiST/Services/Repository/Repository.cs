@@ -10,37 +10,47 @@ namespace ServicesST.Repository
 {
     public class Repository<T> : IRepository<T> where T : class
     {
-        protected TeamContext RepositoryContext { get; set; }
+        private TeamContext _context = null;
+        private DbSet<T> table = null;
 
-        public Repository(TeamContext repositoryContext)
+        public Repository()
         {
-            this.RepositoryContext = repositoryContext;
+            this._context = new TeamContext();
+            table = _context.Set<T>();
         }
-
-        public IQueryable<T> FindAll()
+        public Repository(TeamContext _context)
         {
-            return this.RepositoryContext.Set<T>().AsNoTracking();
+            this._context = _context;
+            table = _context.Set<T>();
         }
-
-        public IQueryable<T> FindByCondition(Expression<Func<T, bool>> expression)
+        public IEnumerable<T> GetAll()
         {
-            return this.RepositoryContext.Set<T>()
-                .Where(expression).AsNoTracking();
+            return table.ToList();
         }
-
-        public void Create(T entity)
+        public T GetById(object id)
         {
-            this.RepositoryContext.Set<T>().Add(entity);
+            return table.Find(id);
         }
-
-        public void Update(T entity)
+        public void Insert(T obj)
         {
-            this.RepositoryContext.Set<T>().Update(entity);
+            table.Add(obj);
         }
-
-        public void Delete(T entity)
+        public void Update(T obj)
         {
-            this.RepositoryContext.Set<T>().Remove(entity);
+            table.Attach(obj);
+            _context.Entry(obj).State = EntityState.Modified;
+        }
+        public void Delete(object id)
+        {
+            T existing = table.Find(id);
+            table.Remove(existing);
+        }
+        public void Save()
+        {
+            _context.SaveChanges();
         }
     }
+
+
 }
+
