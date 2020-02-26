@@ -1,4 +1,5 @@
-﻿using ModelsST;
+﻿using System.Collections.Generic;
+using ModelsST;
 
 
 namespace ServicesST.Factory
@@ -12,7 +13,7 @@ namespace ServicesST.Factory
             return new Team() {Members = 0};
         }
 
-        public ITeam RegisterTeam(IPlayer[] players)
+        public ITeam RegisterTeam(List<IPerson> players)
         {
             var team = new Team();
             foreach (var p in players)

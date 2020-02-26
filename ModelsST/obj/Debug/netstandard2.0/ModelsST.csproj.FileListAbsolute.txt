@@ -1,6 +1,5 @@
 C:\Users\Sara Porcar\source\repos\SportTeams\ModelsST\bin\Debug\netstandard2.0\ModelsST.deps.json
 C:\Users\Sara Porcar\source\repos\SportTeams\ModelsST\bin\Debug\netstandard2.0\ModelsST.dll
-C:\Users\Sara Porcar\source\repos\SportTeams\ModelsST\obj\Debug\netstandard2.0\ModelsST.csprojAssemblyReference.cache
 C:\Users\Sara Porcar\source\repos\SportTeams\ModelsST\obj\Debug\netstandard2.0\ModelsST.csproj.CoreCompileInputs.cache
 C:\Users\Sara Porcar\source\repos\SportTeams\ModelsST\obj\Debug\netstandard2.0\ModelsST.AssemblyInfoInputs.cache
 C:\Users\Sara Porcar\source\repos\SportTeams\ModelsST\obj\Debug\netstandard2.0\ModelsST.AssemblyInfo.cs

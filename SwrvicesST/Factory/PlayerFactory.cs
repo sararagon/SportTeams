@@ -8,7 +8,7 @@ using CrossCutting.Exceptions;
 
 namespace ServicesST.Factory
 {
-    class PlayerFactory : IPlayerFactory
+    public class PlayerFactory : IPlayerFactory
     {
         private IPersonSpecification _specification;
 
