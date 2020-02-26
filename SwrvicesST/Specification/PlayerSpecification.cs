@@ -13,7 +13,7 @@ namespace ServicesST.Specification
                 return p is Player pl && (!(p.Name.StartsWith("Z")) &&
                                           (pl.Valuation >= 1 &&
                                            pl.Valuation <= 10) && (pl.Country != "USA")
-                                          && pl.Number % 1 == 0 && pl.Number >= 0 && pl.Number < 100);
+                                           && pl.Number >= 0 && pl.Number < 100);
             }
             catch (Exception ex)
             { 

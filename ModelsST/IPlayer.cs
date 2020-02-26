@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ModelsST
 {
-    interface IPlayer : IPerson
+    public interface IPlayer : IPerson
     {
         double Valuation { get; set; }
         string Country { get; set; }
