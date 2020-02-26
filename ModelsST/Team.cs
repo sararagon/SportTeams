@@ -4,8 +4,9 @@ using System.Text;
 
 namespace ModelsST
 {
-    class Team
+    public class Team : ITeam
     {
         public List<IPerson> TeamPersons { get; set; }
+        public int Members { get; set; }
     }
 }
