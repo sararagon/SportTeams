@@ -4,7 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using ModelsST;
 
-namespace ServicesST.Repository
+namespace WebApiST.Repository
 {
   
     public interface IRepository<T>

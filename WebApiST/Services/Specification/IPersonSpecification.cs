@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using ModelsST;
 
-namespace ServicesST.Specification
+namespace WebApiST.Specification
 {
     public interface IPersonSpecification
     {

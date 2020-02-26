@@ -1,6 +1,6 @@
 ﻿using ModelsST;
 
-namespace ServicesST.Factory
+namespace WebApiST.Factory
 {
     public interface IPlayerFactory
     {

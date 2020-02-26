@@ -3,14 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using ModelsST;
 using ServicesST.Repository;
 
 namespace WebApiST.Controllers
 {
     public class PlayerController : Controller
     {
-        readonly IRepository playerRepository;
-        public PlayerController(IRepository repository)
+        readonly IRepository<Player> playerRepository;
+        public PlayerController(IRepository<Player> repository)
         {
             this.playerRepository = repository;
         }

@@ -6,7 +6,8 @@ using ModelsST;
 using  ServicesST.Specification;
 using CrossCutting.Exceptions;
 
-namespace ServicesST.Factory
+
+namespace WebApiST.Factory
 {
     public class PlayerFactory : IPlayerFactory
     {

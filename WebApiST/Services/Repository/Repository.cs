@@ -6,7 +6,7 @@ using System.Linq.Expressions;
 using System.Text;
 using WebApiST.DAL;
 
-namespace ServicesST.Repository
+namespace WebApiST.Repository
 {
     public class Repository<T> : IRepository<T> where T : class
     {

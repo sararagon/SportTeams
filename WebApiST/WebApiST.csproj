@@ -293,6 +293,10 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CrossCutting\CrossCutting.csproj">
+      <Project>{899a41c7-77e9-4519-bcac-e89b335b1298}</Project>
+      <Name>CrossCutting</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ModelsST\ModelsST.csproj">
       <Project>{fa9f9597-d563-4e27-b769-19a86d118e1d}</Project>
       <Name>ModelsST</Name>

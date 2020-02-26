@@ -2,7 +2,7 @@
 using ModelsST;
 using CrossCutting.Exceptions;
 
-namespace ServicesST.Specification
+namespace WebApiST.Specification
 {
     public class PlayerSpecification : IPersonSpecification
     {
