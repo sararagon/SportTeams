@@ -6,3 +6,4 @@ C:\Users\Sara Porcar\source\repos\SportTeams\CrossCutting\obj\Debug\netstandard2
 C:\Users\Sara Porcar\source\repos\SportTeams\CrossCutting\bin\Debug\netstandard2.0\CrossCutting.pdb
 C:\Users\Sara Porcar\source\repos\SportTeams\CrossCutting\obj\Debug\netstandard2.0\CrossCutting.dll
 C:\Users\Sara Porcar\source\repos\SportTeams\CrossCutting\obj\Debug\netstandard2.0\CrossCutting.pdb
+C:\Users\Sara Porcar\source\repos\SportTeams\CrossCutting\obj\Debug\netstandard2.0\CrossCutting.csprojAssemblyReference.cache

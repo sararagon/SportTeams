@@ -200,6 +200,14 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\Factory\IPlayerFactory.cs" />
+    <Compile Include="Services\Factory\PlayerFactory.cs" />
+    <Compile Include="Services\Factory\TeamFactory.cs" />
+    <Compile Include="Services\Repository\APIRepository.cs" />
+    <Compile Include="Services\Repository\IRepository.cs" />
+    <Compile Include="Services\Repository\Repository.cs" />
+    <Compile Include="Services\Specification\IPersonSpecification.cs" />
+    <Compile Include="Services\Specification\PlayerSpecification.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\HelpPage\HelpPage.css" />
@@ -289,10 +297,6 @@
     <ProjectReference Include="..\ModelsST\ModelsST.csproj">
       <Project>{fa9f9597-d563-4e27-b769-19a86d118e1d}</Project>
       <Name>ModelsST</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SwrvicesST\ServicesST.csproj">
-      <Project>{156472fc-8c1b-4549-86ca-9ecfa14f4dc9}</Project>
-      <Name>ServicesST</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

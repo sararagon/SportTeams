@@ -6,3 +6,4 @@ C:\Users\Sara Porcar\source\repos\SportTeams\ModelsST\obj\Debug\netstandard2.0\M
 C:\Users\Sara Porcar\source\repos\SportTeams\ModelsST\bin\Debug\netstandard2.0\ModelsST.pdb
 C:\Users\Sara Porcar\source\repos\SportTeams\ModelsST\obj\Debug\netstandard2.0\ModelsST.dll
 C:\Users\Sara Porcar\source\repos\SportTeams\ModelsST\obj\Debug\netstandard2.0\ModelsST.pdb
+C:\Users\Sara Porcar\source\repos\SportTeams\ModelsST\obj\Debug\netstandard2.0\ModelsST.csprojAssemblyReference.cache

@@ -7,7 +7,7 @@ using Newtonsoft.Json;
 
 namespace ServicesST.Repository
 {
-    public class APIRepository : IRepository
+   /* public class APIRepository : IRepository
     {
         
             using (var player = new HttpPlayer())
@@ -24,5 +24,5 @@ namespace ServicesST.Repository
 
 
         
-    }
+    }*/
 }

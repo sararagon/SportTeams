@@ -18,7 +18,7 @@ namespace WebApiST
             container.RegisterType<IPlayer, Player>();
             container.RegisterType<ITeam, Team>();
             container.RegisterType<IPersonSpecification, PlayerSpecification>();
-            container.RegisterType<IRepository, APIRepository>();
+           /* container.RegisterType<IRepository, Repository>();*/
 
             DependencyResolver.SetResolver(new UnityDependencyResolver(container));
         }

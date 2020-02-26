@@ -1,10 +1,17 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Linq.Expressions;
 using ModelsST;
 
 namespace ServicesST.Repository
 {
-    public interface IRepository
+    public interface IRepository<T>
     {
-        List<IPerson> ReadPersons();
+        IQueryable<T> FindAll();
+        IQueryable<T> FindByCondition(Expression<Func<T, bool>> expression);
+        void Create(T entity);
+        void Update(T entity);
+        void Delete(T entity);
     }
 }
