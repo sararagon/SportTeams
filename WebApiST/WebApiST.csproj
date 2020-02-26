@@ -203,7 +203,6 @@
     <Compile Include="Services\Factory\IPlayerFactory.cs" />
     <Compile Include="Services\Factory\PlayerFactory.cs" />
     <Compile Include="Services\Factory\TeamFactory.cs" />
-    <Compile Include="Services\Repository\APIRepository.cs" />
     <Compile Include="Services\Repository\IRepository.cs" />
     <Compile Include="Services\Repository\Repository.cs" />
     <Compile Include="Services\Specification\IPersonSpecification.cs" />
