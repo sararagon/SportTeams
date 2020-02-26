@@ -39,7 +39,35 @@ namespace ServicesST.Factory
          
         }
 
-     
-       
+        public IPlayer RegisterPlayer(ArrayOfJugadoresJugadores jugador)
+        {
+
+            if (Math.Abs(jugador.Dorsal % 1) > 0)
+            {
+                throw new PlayerNumberNotCorrectException();
+
+            }
+            
+            var player = new Player()
+            {
+                Id = jugador.Id,
+                Name = jugador.NombreJugador,
+                Valuation = (double) jugador.Valoracion,
+                Country = jugador.Pais,
+                Number = Convert.ToInt32(jugador.Dorsal)
+            };
+
+            if (_specification.IsSatisfiedBy(player))
+            {
+                return player;
+            }
+            else
+            {
+                throw new NotCreatedPlayerException();
+            }
+
+        }
+
+    
     }
 }

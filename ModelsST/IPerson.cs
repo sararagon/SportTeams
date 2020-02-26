@@ -7,5 +7,6 @@ namespace ModelsST
     public interface IPerson
     {
         string Name { get; set; }
+        int Id { get; set; }
     }
 }

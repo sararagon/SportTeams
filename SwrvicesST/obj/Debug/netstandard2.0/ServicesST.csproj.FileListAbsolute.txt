@@ -10,3 +10,4 @@ C:\Users\Sara Porcar\source\repos\SportTeams\SwrvicesST\bin\Debug\netstandard2.0
 C:\Users\Sara Porcar\source\repos\SportTeams\SwrvicesST\obj\Debug\netstandard2.0\ServicesST.csproj.CopyComplete
 C:\Users\Sara Porcar\source\repos\SportTeams\SwrvicesST\obj\Debug\netstandard2.0\ServicesST.dll
 C:\Users\Sara Porcar\source\repos\SportTeams\SwrvicesST\obj\Debug\netstandard2.0\ServicesST.pdb
+C:\Users\Sara Porcar\source\repos\SportTeams\SwrvicesST\bin\Debug\netstandard2.0\CrossCutting.dll
